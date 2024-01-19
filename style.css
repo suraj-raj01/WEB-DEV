@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #45a188;
+}
+html{
+    overflow-x: hidden;
+}
+/* ==============style on unordered lis================== */
+ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    margin: 0px;
+}
+ul li{
+    padding: 25px;
+}
+ul li:hover{
+    background-color: gray;
+}
+ul li #portfolio{
+    font-weight: 800;
+    font-size: 18px;
+    color: orangered;
+    font-family: cursive;
+}
+/* ==========style on anchor tag================ */
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+/* ================div hero tag======================== */
+.hero{
+    height: 690px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+/* ==============box1 height width=============== */
+#box1{
+   height: 75%;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* background-color: wheat; */
+}
+#box1 #box-1{
+    height: 60%;
+    width: 80%;
+    line-height: 10px;
+    /* border: 1px solid; */
+}
+#box1 #box-1 #greet{
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#box1 #box-1 #name{
+    font-weight: 800;
+    font-size: 45px;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+#box1 #box-1 span{
+    padding:8px 40px;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+}
+#box1 #box-1 p{
+    font-weight: 800;
+    line-height: 15px;
+    padding: 5px 15px;
+}
+/* =========box1 fo box-1 heigh width============== */
+#box1 #box-2{
+    height: 25%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+}
+/* ==========box1 of box-2 btn(know more..) styling================= */
+#box1 #box-2 #btn{
+    margin-left: 15px;
+    padding: 13px 30px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+/* ==========box1 of box-2 resume styling================= */
+#box1 #box-2 #resume{
+    margin-left: 15px;
+    padding: 13px 38px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+/* =========hover effect of button============= */
+#box1 #box-2 #btn:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: green;
+}
+/* ============hover effect on resume button============= */
+#box1 #box-2 #resume:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: green;
+}
+/* ========box2 height width================= */
+#box2{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ /* =============box2 of box-1 height and width=============== */
+ #box2 #box2-box-1{
+    height: 85%;
+    width: 62%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 0px 0px 8px 2px black;
+    overflow: hidden;
+    background-color: red;
+    /* background-image: linear-gradient(to top, #035b5b, teal, #45a188); */
+ }
+ #box2 #box2-box-1 img{
+    height: 470px;
+    filter: drop-shadow(0px 1px 10px white);
+    filter: hue-rotate(140deg);
+ }
+ /* ================box2 of box-2 height width================== */
+ #box2 #box2-box-2{
+    height: 60%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+ }
+ #box2 #box2-box-2 a{
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+ }
+
+ /* ============box2 of box-2 icons================ */
+ #box2 #box2-box-2 i:hover{
+    text-shadow: 0px 1px 20px white;
+ }
