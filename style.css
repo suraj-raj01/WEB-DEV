@@ -195,7 +195,7 @@ ul li a:hover{
     justify-content: space-evenly;
     align-items: center;
     border-radius: 15px;
-    border-bottom-left-radius: 100px;
+    border-bottom-left-radius: 80px;
     box-shadow: 0px 0px 8px 2px black;
     overflow: hidden;
     background-color: #24315E;
@@ -203,7 +203,7 @@ ul li a:hover{
     /* background-image: linear-gradient(to top, #035b5b, teal, #45a188); */
  }
  #box2 #box2-box-1 img{
-    height: 470px;
+    width: 400px;
     /* filter: hue-rotate(140deg); */
  }
  /* ================box2 of box-2 height width================== */
